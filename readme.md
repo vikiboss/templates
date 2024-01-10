@@ -28,10 +28,10 @@ Some of recommended awesome npm packages.
 - [dayjs](https://day.js.org/)
 - [valtio](https://valtio.pmnd.rs/)
 - [ky](https://github.com/sindresorhus/ky)
-- [Geist UI](https://geist-ui.dev/)
 - [shikiji](https://shikiji.netlify.app/)
-- [Vitest](https://vitest.dev/)
-- [Monaco Editor](https://microsoft.github.io/monaco-editor/playground.html)
+- [Geist UI / @geist-ui/core](https://geist-ui.dev/)
+- [Vitest / vitest](https://vitest.dev/)
+- [Monaco Editor / monaco-editor](https://microsoft.github.io/monaco-editor/playground.html) or [Monaco Editor for React / @monaco-editor/react](https://monaco-react.surenatoyan.com/)
 
 ## License
 
