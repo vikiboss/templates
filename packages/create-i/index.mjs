@@ -26,6 +26,7 @@ const { template, name, overwrite } = await prompts([
   {
     type: 'text',
     name: 'name',
+    validate: (name) => (!name ? 'Project name is required' : true),
     message: 'Project name'
   },
   {
