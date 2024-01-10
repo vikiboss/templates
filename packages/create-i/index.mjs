@@ -39,6 +39,11 @@ const { template, name, overwrite } = await prompts([
   }
 ])
 
+if (!name) {
+  console.log('Project name is required')
+  process.exit(1)
+}
+
 const descDir = path.join(process.cwd(), name)
 
 const emitter = degit(`vikiboss/templates/templates/${template}`, {
