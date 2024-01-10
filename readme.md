@@ -4,7 +4,11 @@ A collection of templates for various projects.
 
 ## Usage
 
-coming soon.
+```shell
+npm create i
+# or
+pnpm create i
+```
 
 ## License
 
