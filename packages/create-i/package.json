@@ -4,7 +4,9 @@
   "type": "module",
   "bin": "index.mjs",
   "description": "A Scaffold to start from templates",
-  "scripts": {},
+  "files": [
+    "index.mjs"
+  ],
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
   "dependencies": {
