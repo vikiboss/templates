@@ -1,0 +1,13 @@
+{
+  "name": "create-i",
+  "type": "module",
+  "bin": "index.mjs",
+  "description": "A Scaffold to start from templates",
+  "scripts": {},
+  "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
+  "license": "MIT",
+  "dependencies": {
+    "degit": "^2.8.4",
+    "got": "^14.0.0"
+  }
+}

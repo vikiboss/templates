@@ -1,0 +1,12 @@
+{
+  "name": "templates",
+  "private": true,
+  "description": "mono repo for templates",
+  "scripts": {},
+  "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
+  "license": "MIT",
+  "prettier": "@vikiboss/prettier-config",
+  "devDependencies": {
+    "@vikiboss/prettier-config": "^0.2.2"
+  }
+}
