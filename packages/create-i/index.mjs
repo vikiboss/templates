@@ -38,6 +38,8 @@ const { template, name, overwrite } = await prompts([
   }
 ])
 
+const descDir = path.join(process.cwd(), name)
+
 const emitter = degit(`vikiboss/templates/templates/${template}`, {
   cache: false,
   verbose: true,
@@ -46,6 +48,6 @@ const emitter = degit(`vikiboss/templates/templates/${template}`, {
 
 console.log('⏳ cloning template...')
 
-await emitter.clone(name)
+await emitter.clone(descDir)
 
 console.log('✅ template cloned')
