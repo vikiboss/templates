@@ -1,10 +1,21 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import { createRoot } from 'react-dom/client'
+
+import App from './app.tsx'
+
+import 'virtual:uno.css'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const mainDiv = document.getElementById('app')
+
+if (mainDiv) {
+  const root = createRoot(mainDiv)
+
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  )
+} else {
+  console.error('appDiv is null')
+}
