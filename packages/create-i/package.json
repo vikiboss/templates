@@ -1,5 +1,6 @@
 {
   "name": "create-i",
+  "version": "0.0.1",
   "type": "module",
   "bin": "index.mjs",
   "description": "A Scaffold to start from templates",

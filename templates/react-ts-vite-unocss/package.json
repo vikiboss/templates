@@ -1,5 +1,6 @@
 {
   "name": "react-ts-vite-unocss-template",
+  "private": true,
   "description": "react-ts-vite-unocss template",
   "scripts": {},
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",

@@ -8,12 +8,12 @@ import path from 'node:path'
 
 const link = 'https://api.github.com/repos/vikiboss/templates/contents/templates'
 
-console.log('⏳ loading templates...')
+console.log('⏳ Loading templates...')
 
 /** @type {{ name: string }[]} */
 const templates = await got.get(link).json()
 
-console.log('✅ templates loaded')
+console.log('✅ Templates loaded.')
 
 /** @type {{ template: string, name: string, overwrite: boolean }} */
 const { template, name, overwrite } = await prompts([
@@ -41,13 +41,14 @@ const { template, name, overwrite } = await prompts([
 const descDir = path.join(process.cwd(), name)
 
 const emitter = degit(`vikiboss/templates/templates/${template}`, {
+  mode: 'tar',
   cache: false,
   verbose: true,
   force: overwrite
 })
 
-console.log('⏳ cloning template...')
+console.log('⏳ Cloning template...')
 
 await emitter.clone(descDir)
 
-console.log('✅ template cloned')
+console.log(`✅ Template cloned at ${descDir}`)
