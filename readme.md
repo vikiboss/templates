@@ -17,7 +17,7 @@ pnpm create i
 Use pnpm by default.
 
 - [react-ts-vite-unocss](./templates/react-ts-vite-unocss)
-- [ts-rollup](./templates/ts-rollup)
+- [ts-unbuild](./templates/ts-unbuild)
 
 For more, head to [templates](./templates).
 
