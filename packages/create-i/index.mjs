@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
 import fs from 'node:fs'
+import path from 'node:path'
+
 import got from 'got'
 import degit from 'degit'
 import prompts from 'prompts'
-import path from 'node:path'
 
 const link = 'https://api.github.com/repos/vikiboss/templates/contents/templates'
 
@@ -58,3 +59,5 @@ console.log('⏳ Cloning template...')
 await emitter.clone(descDir)
 
 console.log(`✅ Template cloned at ${descDir}`)
+
+process.exit(0)
