@@ -2,6 +2,7 @@
   "name": "react-ts-vite-unocss-template",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@8.15.8",
   "description": "react-ts-vite-unocss template",
   "scripts": {
     "dev": "vite",
