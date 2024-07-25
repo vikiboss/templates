@@ -11,12 +11,12 @@
   "license": "MIT",
   "dependencies": {
     "degit": "^2.8.4",
-    "got": "^14.3.0",
+    "got": "^14.4.2",
     "prompts": "^2.4.2"
   },
   "devDependencies": {
     "@types/degit": "^2.8.6",
     "@types/prompts": "^2.4.9",
-    "typescript": "^5.4.5"
+    "typescript": "^5.5.4"
   }
 }
