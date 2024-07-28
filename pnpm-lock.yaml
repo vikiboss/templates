@@ -6,17 +6,4 @@ settings:
 
 importers:
 
-  .:
-    devDependencies:
-      '@vikiboss/prettier-config':
-        specifier: ^0.2.2
-        version: 0.2.2
-
-packages:
-
-  '@vikiboss/prettier-config@0.2.2':
-    resolution: {integrity: sha512-PzE5YQwiGdyYNcyUpYONzulGWcSWX6ay26e1RICoA+9Xe6dlWcjyowlX+TRl/yve/ctblWI3kMqoMQnjh/ucMw==}
-
-snapshots:
-
-  '@vikiboss/prettier-config@0.2.2': {}
+  .: {}

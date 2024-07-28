@@ -1,12 +1,13 @@
 {
-  "name": "react-ts-vite-unocss-template",
+  "name": "__project_name__",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@8.15.8",
-  "description": "react-ts-vite-unocss template",
+  "packageManager": "pnpm@9.6.0",
+  "description": "__project_description__",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "lint": "biome check --fix --unsafe",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.8.3",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.7.0",

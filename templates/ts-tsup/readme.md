@@ -1,6 +1,6 @@
-# TS + tsup
+# __project_name__
 
-A npm package project template generate by [templates](https://github.com/vikiboss/templates).
+__project_name__, __project_description__, generate by [templates](https://github.com/vikiboss/templates).
 
 ## Tech Stack
 

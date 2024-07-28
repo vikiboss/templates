@@ -1,6 +1,6 @@
-# React + TS + Vite + UnoCS
+# **project_name**
 
-A web project template generate by [templates](https://github.com/vikiboss/templates).
+**project_name**, **project_description**, generate by [templates](https://github.com/vikiboss/templates).
 
 ## Tech Stack
 
